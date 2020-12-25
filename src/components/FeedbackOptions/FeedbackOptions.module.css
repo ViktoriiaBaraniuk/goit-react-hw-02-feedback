@@ -1,0 +1,20 @@
+button {
+  width: 70px;
+  height: 25px;
+  background-color: #7a97c9;
+
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #9cbcf5;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+button:not(:last-child) {
+  margin-right: 10px;
+}
